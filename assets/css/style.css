@@ -296,6 +296,12 @@ a {
   margin-bottom: 1rem;
 }
 
+.education-title i,
+.experience-title i {
+  font-size: 2.2rem;
+  color: var(--primary-color);
+}
+
 .history-list {
   list-style: none;
   margin-bottom: 1rem;
