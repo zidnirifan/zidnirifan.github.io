@@ -69,7 +69,7 @@ a {
 /* Reusable CSS class */
 
 .section {
-  padding: 2rem 0 3rem;
+  padding: 2rem 0;
 }
 
 .section-title {
@@ -173,6 +173,11 @@ a {
 
 .show-menu {
   bottom: 0;
+}
+
+#home {
+  margin-top: 2.2rem;
+  margin-bottom: 3rem;
 }
 
 .home-blob {
