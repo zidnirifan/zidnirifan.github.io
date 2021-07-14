@@ -149,26 +149,24 @@ a {
   align-items: center;
   color: var(--text-color);
   font-weight: var(--font-medium);
+  transition: 0.2s;
 }
 
 .nav-link:hover {
-  color: var(--primary-color);
+  transform: translateY(-8px);
 }
 
 .nav-icon {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
 }
 
 .nav-close {
   position: absolute;
   right: 1.3rem;
   bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   cursor: pointer;
-  color: var(--text-color);
-}
-
-.nav-close:hover {
   color: var(--primary-color);
 }
 
