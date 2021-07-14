@@ -92,6 +92,7 @@ a {
   bottom: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+  box-shadow: 0 -1px 5px rgba(6, 128, 2, 0.25);
 }
 
 .nav {
