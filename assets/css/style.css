@@ -63,6 +63,7 @@ a {
 #main {
   width: 90%;
   margin: auto;
+  margin-bottom: var(--header-height);
 }
 
 /* Reusable CSS class */
@@ -262,15 +263,15 @@ a {
   transition: 0.4s;
 }
 
+.skills-list {
+  height: 0;
+  overflow: hidden;
+}
+
 .skills-open .skills-list {
   height: max-content;
   margin-bottom: 1rem;
   margin-left: 1rem;
-}
-
-.skills-list {
-  height: 0;
-  overflow: hidden;
 }
 
 .skills-open .skills-arrow {
@@ -286,4 +287,41 @@ a {
   flex-direction: column;
   align-items: center;
   width: min-content;
+}
+
+.education-title,
+.experience-title {
+  text-align: center;
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+}
+
+.history-list {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.history-date {
+  margin-top: 0.8rem;
+}
+
+.history-item {
+  grid-template-columns: min-content 1fr;
+  margin-bottom: 1rem;
+}
+
+.history-rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.history-line {
+  display: block;
+  width: 1.5px;
+  height: 110%;
+  background-color: var(--primary-color);
+  transform: translate(6px, -7px);
 }
