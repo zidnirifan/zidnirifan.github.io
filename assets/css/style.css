@@ -62,6 +62,7 @@ a {
 
 #main {
   width: 90%;
+  margin: auto;
 }
 
 /* Reusable CSS class */
@@ -75,6 +76,11 @@ a {
   color: var(--primary-color);
   margin-bottom: 1.5rem;
   text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
 }
 
 /* Nav */
@@ -133,8 +139,6 @@ a {
 }
 
 .nav-list {
-  display: grid;
-  gap: 2rem;
   list-style: none;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -170,4 +174,53 @@ a {
 
 .show-menu {
   bottom: 0;
+}
+
+.home-blob {
+  width: 250px;
+  fill: var(--primary-color);
+}
+
+.home-blob-img {
+  width: 170px;
+}
+
+.home-img {
+  text-align: center;
+}
+
+.home-title {
+  font-size: var(--big-font-size);
+  color: var(--primary-color);
+  line-height: 1;
+}
+
+.home-title .iam {
+  color: var(--text-color);
+}
+
+.home-social-media {
+  margin-bottom: 0.5rem;
+}
+
+.home-social-media .socmed-icon {
+  font-size: 1.55rem;
+  color: var(--primary-color);
+}
+
+.button {
+  display: inline-block;
+  border: 3px solid var(--primary-color);
+  border-radius: 15px;
+  padding: 0.4rem;
+  padding-left: 0.7rem;
+  padding-right: 0.75rem;
+  font-weight: var(--font-medium);
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+
+.button:hover {
+  color: var(--body-color);
+  background-color: var(--primary-color);
 }
