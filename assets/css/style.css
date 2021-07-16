@@ -413,3 +413,13 @@ a {
   font-size: 1rem;
   padding: 0.3rem 0.75rem;
 }
+
+.certificate-item {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.certificate-img {
+  width: 85%;
+  border-radius: 0.5rem;
+}
