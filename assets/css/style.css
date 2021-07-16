@@ -110,13 +110,15 @@ a {
   font-weight: var(--font-medium);
 }
 
-.nav-logo {
-  font-weight: var(--font-semi-bold);
-  font-size: 1.1rem;
+.nav-logo img {
+  width: 30px;
+  margin-right: 0.7rem;
 }
 
-.nav-logo:hover {
-  color: var(--text-color);
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
 .nav-toggle {
