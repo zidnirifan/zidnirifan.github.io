@@ -420,6 +420,11 @@ a {
 }
 
 .certificate-img {
-  width: 85%;
+  width: 90%;
   border-radius: 0.5rem;
+}
+
+.certificate-title {
+  width: 90%;
+  margin: auto;
 }
