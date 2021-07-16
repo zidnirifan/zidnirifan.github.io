@@ -6,7 +6,8 @@
   /*========== Colors ==========*/
 
   --primary-color: hsl(133, 100%, 32%);
-  --text-color: hsl(133, 8%, 45%);
+  --title-color: rgb(50, 50, 50);
+  --text-color: hsl(133, 8%, 40%);
   --text-color-light: hsl(133, 8%, 65%);
   --body-color: #fff;
 
@@ -219,9 +220,7 @@ a {
   display: inline-block;
   border: 3px solid var(--primary-color);
   border-radius: 15px;
-  padding: 0.4rem;
-  padding-left: 0.7rem;
-  padding-right: 0.75rem;
+  padding: 0.4rem 0.75rem;
   font-weight: var(--font-medium);
   color: var(--primary-color);
   font-size: 1.1rem;
@@ -338,4 +337,79 @@ a {
   height: 110%;
   background-color: var(--primary-color);
   transform: translate(6px, -7px);
+}
+
+.preject-container {
+  overflow: initial;
+}
+
+.project-content {
+  padding: 0 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.project-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.3rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: '';
+}
+
+.swiper-project-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.swiper-button-next {
+  right: -0.4rem;
+}
+
+.swiper-button-prev {
+  left: -0.4rem;
+}
+
+.stack-item {
+  display: inline;
+}
+
+.stack-list {
+  margin-bottom: 1rem;
+}
+
+.feature-title,
+.stack-title {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.feature-list {
+  padding-left: 1.1rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet {
+  outline: none;
+}
+
+.btn-demo {
+  margin-right: 0.5rem;
+}
+
+.project-data .button {
+  font-size: 1rem;
+  padding: 0.3rem 0.75rem;
 }

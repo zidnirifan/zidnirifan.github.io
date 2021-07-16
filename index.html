@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
-      rel="stylesheet"
-    />
     <link rel="shortcut icon" href="assets/images/my-logo.svg" type="image/x-icon">
     <title>Zidni Rif'an</title>
   </head>
@@ -343,7 +344,69 @@
         </div>
       </section>
 
+      <section class="section project" id="project">
+        <h2 class="section-title">Project</h2>
+        <div class="project-container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="project-content grid swiper-slide">
+              <img class="project-img" src="assets/images/databola-project.jpg" alt="databola project">
+              <div class="project-data">
+                <h3 class="project-title">Databola</h3>
+                <p class="project-description">Website that provide football data</p>
+                <div class="project-feature">
+                  <p class="feature-title">Feature :</p>
+                  <ul class="feature-list">
+                    <li class="feature-item">Realtime Standing from some big league</li>
+                    <li class="feature-item">Match schedule</li>
+                    <li class="feature-item">Add club to favorite</li>
+                  </ul>
+                </div>
+                <div class="project-stack">
+                  <p class="stack-title">Stack :</p>
+                  <ul class="stack-list">
+                    <li class="stack-item">-Materialize</li>
+                    <li class="stack-item">-Indexed DB</li>
+                    <li class="stack-item">-PWA</li>
+                  </ul>
+                </div>
+                <a href="https://databola.cf" target="_blank" class="button btn-demo">Demo <i class="uil uil-window"></i></a>
+                <a href="https://github.com/zidnirifan/databola" target="_blank" class="button btn-code">Code <i class="uil uil-arrow"></i></a>
+              </div>
+            </div>
+            <div class="project-content grid swiper-slide">
+              <img class="project-img" src="assets/images/luwe-project.jpg" alt="Luwe project">
+              <div class="project-data">
+                <h3 class="project-title">Luwe</h3>
+                <p class="project-description">Website that provide catalog restaurants</p>
+                <div class="project-feature">
+                  <p class="feature-title">Feature :</p>
+                  <ul class="feature-list">
+                    <li class="feature-item">Catalog restaurants</li>
+                    <li class="feature-item">Add restaurants to favorite</li>
+                    <li class="feature-item">Progressive Web Apps</li>
+                  </ul>
+                </div>
+                <div class="project-stack">
+                  <p class="stack-title">Stack :</p>
+                  <ul class="stack-list">
+                    <li class="stack-item">-Pure CSS</li>
+                    <li class="stack-item">-Webpack</li>
+                    <li class="stack-item">-Workbox</li>
+                  </ul>
+                </div>
+                <a href="https://luwe.netlify.app" target="_blank" class="button btn-demo">Demo <i class="uil uil-window"></i></a>
+                <a href="https://github.com/zidnirifan/luwe" target="_blank" class="button btn-code">Code <i class="uil uil-arrow"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"><i class="uil uil-angle-right-b swiper-project-icon"></i></div>
+          <div class="swiper-button-prev"><i class="uil uil-angle-left swiper-project-icon"></i></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
     </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
