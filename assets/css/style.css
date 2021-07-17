@@ -161,9 +161,12 @@ a {
   transform: translateY(-8px);
 }
 
+.active-link {
+  color: var(--primary-color);
+}
+
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--primary-color);
 }
 
 .nav-close {
@@ -427,6 +430,10 @@ a {
 .certificate-title {
   width: 90%;
   margin: auto;
+}
+
+.section.contact {
+  margin-bottom: 10rem;
 }
 
 .contact-icon {
