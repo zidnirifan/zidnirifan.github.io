@@ -454,3 +454,20 @@ a {
     'icon address';
   grid-template-columns: 1fr 2.5fr;
 }
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--body-color);
+  padding: 0.7rem 5%;
+  margin-bottom: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.footer-social-media .socmed-icon {
+  color: var(--body-color);
+  font-size: 1.5rem;
+  margin-left: 0.2rem;
+}
