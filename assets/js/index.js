@@ -83,3 +83,22 @@ const scrollHeader = () => {
   else nav.classList.remove('scroll-header');
 };
 window.addEventListener('scroll', scrollHeader);
+
+// Show scroll up
+
+const scrollUp = () => {
+  const scrollUp = document.getElementById('scroll-up');
+
+  const height = document.documentElement.offsetHeight;
+
+  const progressPercentage =
+    125 - (125 * ((window.scrollY + screen.height) / height) * 100) / 100;
+
+  const progressCircle = document.querySelector('.progress-percentage');
+  progressCircle.style.strokeDashoffset = progressPercentage;
+
+  // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-Up class
+  if (this.scrollY >= 318) scrollUp.classList.add('show-scroll');
+  else scrollUp.classList.remove('show-scroll');
+};
+window.addEventListener('scroll', scrollUp);
