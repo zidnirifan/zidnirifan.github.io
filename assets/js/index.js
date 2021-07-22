@@ -101,7 +101,7 @@ const scrollUp = () => {
   const height = document.documentElement.offsetHeight;
 
   const progressPercentage =
-    125 - (125 * ((window.scrollY + screen.height) / height) * 100) / 100;
+    125 - (125 * ((window.scrollY + window.innerHeight) / height) * 100) / 100;
 
   const progressCircle = document.querySelector('.progress-percentage');
   progressCircle.style.strokeDashoffset = progressPercentage;
