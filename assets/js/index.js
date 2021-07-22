@@ -99,9 +99,10 @@ const scrollUp = () => {
   const scrollUp = document.getElementById('scroll-up');
 
   const height = document.documentElement.offsetHeight;
+  const footerHeight = document.querySelector('.footer').offsetHeight;
 
   const progressPercentage =
-    125 - (125 * ((window.scrollY + window.innerHeight) / height) * 100) / 100;
+    125 - (125 * (window.scrollY + window.innerHeight - footerHeight)) / height;
 
   const progressCircle = document.querySelector('.progress-percentage');
   progressCircle.style.strokeDashoffset = progressPercentage;
