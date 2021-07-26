@@ -1,0 +1,56 @@
+{
+  "frontEnd": [
+    {
+      "name": "HTML",
+      "logo": "html-logo.svg"
+    },
+    {
+      "name": "CSS",
+      "logo": "css-logo.svg"
+    },
+    {
+      "name": "JavaScript",
+      "logo": "js-logo.svg"
+    },
+    {
+      "name": "React",
+      "logo": "react-logo.svg"
+    },
+    {
+      "name": "Webpack",
+      "logo": "webpack-logo.svg"
+    }
+  ],
+  "backEnd": [
+    {
+      "name": "Node JS",
+      "logo": "node-logo.svg"
+    },
+    {
+      "name": "Express",
+      "logo": "express-logo.png"
+    },
+    {
+      "name": "Hapi",
+      "logo": "hapi-logo.png"
+    },
+    {
+      "name": "PostgreSQL",
+      "logo": "postgresql-logo.svg"
+    }
+  ],
+  "cloudComputing": [
+    {
+      "name": "AWS",
+      "logo": "aws-logo.svg"
+    },
+    {
+      "name": "Azure",
+      "logo": "azure-logo.svg"
+    },
+    {
+      "name": "Google Cloud",
+      "logo": "gcloud-logo.svg"
+    }
+  ]
+}
