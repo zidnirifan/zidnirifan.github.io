@@ -1,0 +1,26 @@
+{
+  "education": [
+    {
+      "title": "Computer And Network Engineering",
+      "subtitle": "SMKN 1 Tegalsari | Banyuwangi, Indonesia",
+      "date": "2019 - 2022"
+    },
+    {
+      "title": "Self Taught",
+      "subtitle": "Online Course, Youtube",
+      "date": "2019 - present"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Intern Network Technician",
+      "subtitle": "PT. Jawa Provider Telematika",
+      "date": "Oktober 2020 - April 2021"
+    },
+    {
+      "title": "Fasilitator Cloud and Back-End Developer Scholarship Program",
+      "subtitle": "Dicoding Indonesia",
+      "date": "Juni 2021 - Present"
+    }
+  ]
+}
