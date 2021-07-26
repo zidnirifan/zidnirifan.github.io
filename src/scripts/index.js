@@ -2,6 +2,7 @@ import './components/nav-bar.js';
 import './components/home-section.js';
 import './components/skills-section.js';
 import './components/history-section.js';
+import './components/project-section.js';
 
 const skillsHeader = document.querySelectorAll('.skills-header');
 
