@@ -4,18 +4,6 @@ import './components/skills-section.js';
 import './components/history-section.js';
 import './components/project-section.js';
 
-const skillsHeader = document.querySelectorAll('.skills-header');
-
-const toggleSkills = (e) => {
-  if (e.target.classList.contains('skills-header')) {
-    e.target.parentElement.classList.toggle('skills-open');
-  } else {
-    e.target.parentElement.parentElement.classList.toggle('skills-open');
-  }
-};
-
-skillsHeader.forEach((e) => e.addEventListener('click', toggleSkills));
-
 // Swiper
 
 const swiper = [

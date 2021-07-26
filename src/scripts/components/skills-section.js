@@ -18,6 +18,18 @@ class SkillsSection extends HTMLElement {
 
   connectedCallback() {
     this.render();
+
+    const skillsHeader = this.querySelectorAll('.skills-header');
+
+    skillsHeader.forEach((e) => e.addEventListener('click', this.toggleSkills));
+  }
+
+  toggleSkills(e) {
+    if (e.target.classList.contains('skills-header')) {
+      e.target.parentElement.classList.toggle('skills-open');
+    } else {
+      e.target.parentElement.parentElement.classList.toggle('skills-open');
+    }
   }
 
   render() {
