@@ -4,6 +4,7 @@ import './components/skills-section.js';
 import './components/history-section.js';
 import './components/project-section.js';
 import './components/certificates-section.js';
+import './components/contact-section.js';
 
 // Swiper
 
