@@ -9,7 +9,7 @@
       "Add club to favorite"
     ],
     "stack": ["-Materialize", "-Indexed DB", "-PWA"],
-    "demo": "https://databola.cf",
+    "demo": "https://databola-15e57.web.app/",
     "code": "https://github.com/zidnirifan/databola"
   },
   {
@@ -21,7 +21,7 @@
       "Add restaurants to favorite",
       "Progressive Web Apps"
     ],
-    "stack": ["-Pure CSS", "-Webpack", "-Workbox"],
+    "stack": ["-SCSS", "-Webpack", "-Workbox"],
     "demo": "https://luwe.netlify.app",
     "code": "https://github.com/zidnirifan/luwe"
   }

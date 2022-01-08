@@ -1,24 +1,28 @@
 {
   "frontEnd": [
     {
-      "name": "HTML",
-      "logo": "html-logo.svg"
+      "name": "JavaScript",
+      "logo": "js-logo.svg"
     },
     {
       "name": "CSS",
       "logo": "css-logo.svg"
     },
     {
-      "name": "JavaScript",
-      "logo": "js-logo.svg"
+      "name": "HTML",
+      "logo": "html-logo.svg"
     },
     {
-      "name": "React",
+      "name": "React JS",
       "logo": "react-logo.svg"
     },
     {
       "name": "Webpack",
       "logo": "webpack-logo.svg"
+    },
+    {
+      "name": "Next JS",
+      "logo": "nextjs-logo.svg"
     }
   ],
   "backEnd": [
@@ -27,12 +31,16 @@
       "logo": "node-logo.svg"
     },
     {
-      "name": "Express",
+      "name": "Express JS",
       "logo": "express-logo.png"
     },
     {
-      "name": "Hapi",
+      "name": "Hapi JS",
       "logo": "hapi-logo.png"
+    },
+    {
+      "name": "MongoDB",
+      "logo": "mongodb-logo.svg"
     },
     {
       "name": "PostgreSQL",

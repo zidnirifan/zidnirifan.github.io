@@ -1,20 +1,26 @@
 [
   {
+    "title": "Menjadi Back-End Developer Expert",
+    "subtitle": "Dicoding Indonesia",
+    "img": "mbde-certificate.png",
+    "href": "https://www.dicoding.com/certificates/KEXL37M2MPG2"
+  },
+  {
     "title": "Menjadi Front-End Web Developer Expert",
     "subtitle": "Dicoding Indonesia",
     "img": "mfwde-certificate.png",
     "href": "https://www.dicoding.com/certificates/NVP7G0DGOXR0"
   },
   {
-    "title": "Belajar Fundamental Aplikasi Back-End",
-    "subtitle": "Dicoding Indonesia",
-    "img": "bfab-certificate.png",
-    "href": "https://www.dicoding.com/certificates/2VX32N004PYQ"
-  },
-  {
     "title": "Architecting on AWS",
     "subtitle": "Dicoding Indonesia",
     "img": "aoa-certificate.png",
     "href": "https://www.dicoding.com/certificates/0LZ0D8DG0X65"
+  },
+  {
+    "title": "Menjadi Azure Cloud Developer",
+    "subtitle": "Dicoding Indonesia",
+    "img": "macd-certificate.png",
+    "href": "https://www.dicoding.com/certificates/ERZR4NQROZYV"
   }
 ]
