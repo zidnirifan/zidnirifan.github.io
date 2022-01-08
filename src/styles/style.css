@@ -352,6 +352,20 @@ a {
   margin-top: 0.8rem;
 }
 
+.history-desc {
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.history-desc-list {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.history-desc-list li {
+  font-size: 0.85rem;
+}
+
 .history-item {
   grid-template-columns: min-content 1fr;
   margin-bottom: 1rem;
