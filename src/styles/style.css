@@ -266,12 +266,12 @@ a {
 }
 
 .skills-logo {
-  height: 40px;
+  height: 30px;
   margin: 0.7rem;
 }
 
 .cloud-skill .skills-logo {
-  height: 30px;
+  height: 20px;
 }
 
 .skills-container {
@@ -281,7 +281,6 @@ a {
 .skills-header {
   display: flex;
   align-items: center;
-  margin-bottom: 0.5rem;
   cursor: pointer;
 }
 
@@ -309,6 +308,12 @@ a {
   overflow: hidden;
 }
 
+.skill-desc {
+  margin-bottom: 0.5rem;
+  width: 90%;
+  margin-left: 1rem;
+}
+
 .skills-open .skills-list {
   height: max-content;
   margin-bottom: 1rem;
@@ -321,6 +326,7 @@ a {
 
 .skill-item {
   display: inline-block;
+  margin-right: 0.3rem;
 }
 
 .skill-item div {

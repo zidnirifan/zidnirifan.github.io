@@ -4,16 +4,14 @@ import skillsList from '../../assets/json/skills.json' assert { type: 'json' };
 class SkillsSection extends HTMLElement {
   constructor() {
     super();
-    this.skillsList = skillsList;
-
     this.frontEndSkills = document.createElement('skills-list');
-    this.frontEndSkills.data = skillsList.frontEnd;
+    this.frontEndSkills.data = skillsList.frontEnd.stack;
 
     this.backEndSkills = document.createElement('skills-list');
-    this.backEndSkills.data = skillsList.backEnd;
+    this.backEndSkills.data = skillsList.backEnd.stack;
 
     this.cloudSkills = document.createElement('skills-list');
-    this.cloudSkills.data = skillsList.cloudComputing;
+    this.cloudSkills.data = skillsList.cloudComputing.stack;
   }
 
   connectedCallback() {
@@ -43,6 +41,7 @@ class SkillsSection extends HTMLElement {
             <i class="uil uil-angle-down skills-arrow"></i>
           </div>
           <div class="skills-list">
+          <p class="skill-desc">${skillsList.frontEnd.desc}</p>
            ${this.frontEndSkills.outerHTML}
           </div>
         </div>
@@ -54,6 +53,7 @@ class SkillsSection extends HTMLElement {
             <i class="uil uil-angle-down skills-arrow"></i>
           </div>
           <div class="skills-list">
+          <p class="skill-desc">${skillsList.backEnd.desc}</p>
             ${this.backEndSkills.outerHTML}
           </div>
         </div>
@@ -65,6 +65,7 @@ class SkillsSection extends HTMLElement {
             <i class="uil uil-angle-down skills-arrow"></i>
           </div>
           <div class="skills-list">
+          <p class="skill-desc">${skillsList.cloudComputing.desc}</p>
             ${this.cloudSkills.outerHTML}
           </div>
         </div>

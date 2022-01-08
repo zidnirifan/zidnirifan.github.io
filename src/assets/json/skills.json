@@ -1,64 +1,73 @@
 {
-  "frontEnd": [
-    {
-      "name": "JavaScript",
-      "logo": "js-logo.svg"
-    },
-    {
-      "name": "CSS",
-      "logo": "css-logo.svg"
-    },
-    {
-      "name": "HTML",
-      "logo": "html-logo.svg"
-    },
-    {
-      "name": "React JS",
-      "logo": "react-logo.svg"
-    },
-    {
-      "name": "Webpack",
-      "logo": "webpack-logo.svg"
-    },
-    {
-      "name": "Next JS",
-      "logo": "nextjs-logo.svg"
-    }
-  ],
-  "backEnd": [
-    {
-      "name": "Node JS",
-      "logo": "node-logo.svg"
-    },
-    {
-      "name": "Express JS",
-      "logo": "express-logo.png"
-    },
-    {
-      "name": "Hapi JS",
-      "logo": "hapi-logo.png"
-    },
-    {
-      "name": "MongoDB",
-      "logo": "mongodb-logo.svg"
-    },
-    {
-      "name": "PostgreSQL",
-      "logo": "postgresql-logo.svg"
-    }
-  ],
-  "cloudComputing": [
-    {
-      "name": "AWS",
-      "logo": "aws-logo.svg"
-    },
-    {
-      "name": "Azure",
-      "logo": "azure-logo.svg"
-    },
-    {
-      "name": "Google Cloud",
-      "logo": "gcloud-logo.svg"
-    }
-  ]
+  "frontEnd": {
+    "desc": "Build a progressive web app with responsive design.",
+    "stack": [
+      {
+        "name": "HTML",
+        "logo": "html-logo.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "css-logo.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "js-logo.svg"
+      },
+      {
+        "name": "Webpack",
+        "logo": "webpack-logo.svg"
+      },
+      {
+        "name": "ReactJS",
+        "logo": "react-logo.svg"
+      },
+      {
+        "name": "NextJS",
+        "logo": "nextjs-logo.svg"
+      }
+    ]
+  },
+  "backEnd": {
+    "desc": "Build an api with clean architecture and good performance.",
+    "stack": [
+      {
+        "name": "Node.JS",
+        "logo": "node-logo.svg"
+      },
+      {
+        "name": "ExpressJS",
+        "logo": "express-logo.png"
+      },
+      {
+        "name": "HapiJS",
+        "logo": "hapi-logo.png"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "mongodb-logo.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "postgresql-logo.svg"
+      }
+    ]
+  },
+  "cloudComputing": {
+    "desc": "Deploy an app on cloud with good architecture and cost optimization.",
+    "stack": [
+      {
+        "name": "AWS",
+        "logo": "aws-logo.svg"
+      },
+      {
+        "name": "Azure",
+        "logo": "azure-logo.svg"
+      },
+      {
+        "name": "Google Cloud",
+        "logo": "gcloud-logo.svg"
+      }
+    ]
+  }
 }
