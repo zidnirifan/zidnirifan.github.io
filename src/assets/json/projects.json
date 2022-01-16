@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Databola",
+    "img": "databola-project.jpg",
+    "description": "Website that provide football data",
+    "feature": [
+      "Realtime Standing from some big league",
+      "Match schedule",
+      "Add club to favorite"
+    ],
+    "stack": ["-Materialize", "-Indexed DB", "-PWA"],
+    "demo": "https://databola-15e57.web.app/",
+    "code": "https://github.com/zidnirifan/databola"
+  },
+  {
+    "title": "Luwe",
+    "img": "luwe-project.jpg",
+    "description": "Website that provide catalog restaurants",
+    "feature": [
+      "Catalog restaurants",
+      "Add restaurants to favorite",
+      "Progressive Web Apps"
+    ],
+    "stack": ["-SCSS", "-Webpack", "-Workbox"],
+    "demo": "https://luwe.netlify.app",
+    "code": "https://github.com/zidnirifan/luwe"
+  }
+]

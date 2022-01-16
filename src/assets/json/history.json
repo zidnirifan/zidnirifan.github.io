@@ -1,0 +1,47 @@
+{
+  "education": [
+    {
+      "title": "Computer And Network Engineering",
+      "subtitle": "SMKN 1 Tegalsari | Banyuwangi, Indonesia",
+      "desc": "Learn about fundamental computer, network engineering and general knowledge like math, language, phisics, and others.",
+      "date": "2019 - 2022"
+    },
+    {
+      "title": "Self Taught",
+      "subtitle": "Online Course, Youtube, Internet",
+      "desc": "Learn about programming and any knowledge that useful for improving myself like business, technology, finance and anything else.",
+      "date": "All The Time"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Intern Network Technician",
+      "subtitle": "PT. Jawa Provider Telematika",
+      "desc": [
+        "Network installation",
+        "Fix network problem",
+        "Maintenance network"
+      ],
+      "date": "Oktober 2020 - April 2021"
+    },
+    {
+      "title": "Fasilitator",
+      "subtitle": "AWS Cloud and Back-End Developer Scholarship Program",
+      "desc": [
+        "Answer student's questions in discussion forum",
+        "Help solve student's problems"
+      ],
+      "date": "Juni 2021 - Desember 2021"
+    },
+    {
+      "title": "External Code Reviewer",
+      "subtitle": "Dicoding Indonesia",
+      "desc": [
+        "Review the student's project",
+        "Suggest better code and best practice",
+        "Rate the student's project"
+      ],
+      "date": "September 2021 - Present"
+    }
+  ]
+}

@@ -266,12 +266,12 @@ a {
 }
 
 .skills-logo {
-  height: 40px;
+  height: 30px;
   margin: 0.7rem;
 }
 
 .cloud-skill .skills-logo {
-  height: 30px;
+  height: 20px;
 }
 
 .skills-container {
@@ -281,7 +281,6 @@ a {
 .skills-header {
   display: flex;
   align-items: center;
-  margin-bottom: 0.5rem;
   cursor: pointer;
 }
 
@@ -309,6 +308,12 @@ a {
   overflow: hidden;
 }
 
+.skill-desc {
+  margin-bottom: 0.5rem;
+  width: 90%;
+  margin-left: 1rem;
+}
+
 .skills-open .skills-list {
   height: max-content;
   margin-bottom: 1rem;
@@ -321,6 +326,7 @@ a {
 
 .skill-item {
   display: inline-block;
+  margin-right: 0.3rem;
 }
 
 .skill-item div {
@@ -350,6 +356,20 @@ a {
 
 .history-date {
   margin-top: 0.8rem;
+}
+
+.history-desc {
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.history-desc-list {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.history-desc-list li {
+  font-size: 0.85rem;
 }
 
 .history-item {
@@ -536,7 +556,11 @@ a {
 }
 
 .show-scroll {
-  bottom: 5rem;
+  bottom: 4.5rem;
+}
+
+.up-scroll {
+  bottom: 7rem;
 }
 
 .scrollup svg {
@@ -699,5 +723,9 @@ a {
   .footer {
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .up-scroll {
+    bottom: 4.5rem;
   }
 }
