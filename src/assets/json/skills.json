@@ -29,7 +29,7 @@
     ]
   },
   "backEnd": {
-    "desc": "Build an api with clean architecture and good performance.",
+    "desc": "Build an API with clean architecture and good performance.",
     "stack": [
       {
         "name": "Node.JS",
