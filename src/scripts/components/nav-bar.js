@@ -1,3 +1,5 @@
+import logo from '../../assets/images/my-logo.svg';
+
 class NavBar extends HTMLElement {
   connectedCallback() {
     this.render();
@@ -26,7 +28,7 @@ class NavBar extends HTMLElement {
   render() {
     this.innerHTML = /* html */ `<nav class="nav">
       <a href="#" class="nav-logo"
-        ><img src="src/assets/images/my-logo.svg" alt="zidni logo" />Zidni</a
+        ><img src="${logo}" alt="zidni logo" />Zidni</a
       >
       <div class="nav-menu" id="nav-menu">
         <ul class="nav-list grid">

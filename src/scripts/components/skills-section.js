@@ -1,5 +1,5 @@
 import './skills-list.js';
-import skillsList from '../../assets/json/skills.json' assert { type: 'json' };
+import skillsList from '../../assets/json/skills.json';
 
 class SkillsSection extends HTMLElement {
   constructor() {

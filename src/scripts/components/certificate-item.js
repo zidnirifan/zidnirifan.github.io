@@ -12,7 +12,7 @@ class CertificateItem extends HTMLElement {
         target="_blank"
       >
         <img
-          src="src/assets/images/${this._data.img}"
+          src="images/${this._data.img}"
           alt="mfwde certificate"
           class="certificate-img"
         />
