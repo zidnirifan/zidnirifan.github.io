@@ -556,7 +556,11 @@ a {
 }
 
 .show-scroll {
-  bottom: 5rem;
+  bottom: 4.5rem;
+}
+
+.up-scroll {
+  bottom: 7rem;
 }
 
 .scrollup svg {
@@ -719,5 +723,9 @@ a {
   .footer {
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .up-scroll {
+    bottom: 4.5rem;
   }
 }

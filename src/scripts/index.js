@@ -33,7 +33,6 @@ const swiper = [
       },
       768: {
         slidesPerView: 3,
-        pagination: false,
       },
     },
   }),
@@ -88,9 +87,21 @@ const scrollUp = () => {
   const progressCircle = document.querySelector('.progress-percentage');
   progressCircle.style.strokeDashoffset = progressPercentage;
 
+  const bottomHeight =
+    document.documentElement.offsetHeight - window.innerHeight - 25;
+
   // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-Up class
   if (window.scrollY >= 318) scrollUp.classList.add('show-scroll');
-  else scrollUp.classList.remove('show-scroll');
+  if (window.scrollY >= bottomHeight) {
+    scrollUp.classList.remove('show-scroll');
+    scrollUp.classList.add('up-scroll');
+  }
+  if (window.scrollY < 318) {
+    scrollUp.classList.remove('show-scroll');
+  }
+  if (window.scrollY < bottomHeight) {
+    scrollUp.classList.remove('up-scroll');
+  }
 };
 window.addEventListener('scroll', scrollUp);
 
@@ -113,8 +124,12 @@ const getCurrentIcon = () =>
 // We validate if the user previously chose a topic
 if (selectedTheme) {
   // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme);
-  themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme);
+  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](
+    darkTheme
+  );
+  themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](
+    iconTheme
+  );
 }
 
 // Activate / deactivate the theme manually with the button
