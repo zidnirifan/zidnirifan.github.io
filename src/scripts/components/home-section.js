@@ -32,7 +32,7 @@ class HomeSection extends HTMLElement {
                 class="home-blob-img"
                 x="12"
                 y="12"
-                xlink:href="src/assets/images/portfolio-photo.png"
+                xlink:href="images/portfolio-photo.png"
               />
             </g>
           </svg>

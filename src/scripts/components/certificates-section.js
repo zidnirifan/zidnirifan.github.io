@@ -1,5 +1,5 @@
 import './certificates-list.js';
-import certificates from '../../assets/json/certificates.json' assert { type: 'json' };
+import certificates from '../../assets/json/certificates.json';
 
 class CertificatesSection extends HTMLElement {
   constructor() {

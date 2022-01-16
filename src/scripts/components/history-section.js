@@ -1,5 +1,5 @@
 import './history-list.js';
-import historyList from '../../assets/json/history.json' assert { type: 'json' };
+import historyList from '../../assets/json/history.json';
 
 class HistorySection extends HTMLElement {
   constructor() {

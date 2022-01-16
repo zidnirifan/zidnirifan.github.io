@@ -6,17 +6,17 @@ class ProjectItem extends HTMLElement {
 
   render() {
     const featuresList = this._data.feature.map(
-      (feature) => `<li class="feature-item">${feature}</li>`,
+      (feature) => `<li class="feature-item">${feature}</li>`
     );
     const stacksList = this._data.stack.map(
-      (stack) => `<li class="stack-item">${stack}</li>`,
+      (stack) => `<li class="stack-item">${stack}</li>`
     );
 
     this.classList = 'project-content grid swiper-slide';
     this.innerHTML = /* html */ `
       <img
         class="project-img"
-        src="src/assets/images/${this._data.img}"
+        src="images/${this._data.img}"
         alt="databola project"
       />
       <div class="project-data">

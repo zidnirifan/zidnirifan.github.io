@@ -1,5 +1,5 @@
 import './projects-list.js';
-import projects from '../../assets/json/projects.json' assert { type: 'json' };
+import projects from '../../assets/json/projects.json';
 
 class ProjectSection extends HTMLElement {
   constructor() {

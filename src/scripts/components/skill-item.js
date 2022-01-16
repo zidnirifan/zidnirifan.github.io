@@ -8,7 +8,7 @@ class SkillItem extends HTMLElement {
     this.innerHTML = /* html */ `<div class="skill-item">
       <div>
         <img
-          src="src/assets/images/${this._data.logo}"
+          src="images/${this._data.logo}"
           alt="${this._data.name}"
           class="skills-logo"
         />
