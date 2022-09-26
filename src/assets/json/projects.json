@@ -1,5 +1,29 @@
 [
   {
+    "title": "Insapgan",
+    "img": "insapgan-project.jpg",
+    "description": "Social media app like instagram",
+    "feature": [
+      "Post images with caption, like posts, explore posts",
+      "Follow user, unfollow user, search users",
+      "Comment, reply comment, like comments",
+      "Real-time chats",
+      "Notification"
+    ],
+    "stack": [
+      "-Typescript",
+      "-Node",
+      "-Express",
+      "-MongoDB",
+      "-Firebase Storage",
+      "-Socket.IO",
+      "-React",
+      "-Material UI"
+    ],
+    "demo": "https://insapgan.zidnirifan.my.id",
+    "code": "https://github.com/zidnirifan/socmed-app-frontend"
+  },
+  {
     "title": "Databola",
     "img": "databola-project.jpg",
     "description": "Website that provide football data",
@@ -9,7 +33,7 @@
       "Add club to favorite"
     ],
     "stack": ["-Materialize", "-Indexed DB", "-PWA"],
-    "demo": "https://databola-15e57.web.app/",
+    "demo": "https://databola-15e57.web.app",
     "code": "https://github.com/zidnirifan/databola"
   },
   {
