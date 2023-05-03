@@ -1,4 +1,41 @@
 {
+  "backEnd": {
+    "desc": "Build an API with clean architecture and good performance.",
+    "stack": [
+      {
+        "name": "Typescript",
+        "logo": "typescript-logo.svg"
+      },
+      {
+        "name": "Node.JS",
+        "logo": "node-logo.svg"
+      },
+      {
+        "name": "ExpressJS",
+        "logo": "express-logo.png"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "mongodb-logo.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "postgresql-logo.svg"
+      },
+      {
+        "name": "Kafka",
+        "logo": "kafka-logo.svg"
+      },
+      {
+        "name": "Elasticsearch",
+        "logo": "elasticsearch-logo.svg"
+      },
+      {
+        "name": "Redis",
+        "logo": "redis-logo.svg"
+      }
+    ]
+  },
   "frontEnd": {
     "desc": "Build a progressive web app with responsive design.",
     "stack": [
@@ -25,31 +62,6 @@
       {
         "name": "NextJS",
         "logo": "nextjs-logo.svg"
-      }
-    ]
-  },
-  "backEnd": {
-    "desc": "Build an API with clean architecture and good performance.",
-    "stack": [
-      {
-        "name": "Node.JS",
-        "logo": "node-logo.svg"
-      },
-      {
-        "name": "ExpressJS",
-        "logo": "express-logo.png"
-      },
-      {
-        "name": "HapiJS",
-        "logo": "hapi-logo.png"
-      },
-      {
-        "name": "MongoDB",
-        "logo": "mongodb-logo.svg"
-      },
-      {
-        "name": "PostgreSQL",
-        "logo": "postgresql-logo.svg"
       }
     ]
   },

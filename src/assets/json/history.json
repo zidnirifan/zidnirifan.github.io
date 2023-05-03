@@ -1,28 +1,47 @@
 {
   "education": [
     {
-      "title": "Computer And Network Engineering",
-      "subtitle": "SMKN 1 Tegalsari | Banyuwangi, Indonesia",
-      "desc": "Learn about fundamental computer, network engineering and general knowledge like math, language, phisics, and others.",
-      "date": "2019 - 2022"
-    },
-    {
       "title": "Self Taught",
       "subtitle": "Online Course, Youtube, Internet",
       "desc": "Learn about programming and any knowledge that useful for improving myself like business, technology, finance and anything else.",
       "date": "All The Time"
+    },
+    {
+      "title": "Computer And Network Engineering",
+      "subtitle": "SMKN 1 Tegalsari | Banyuwangi, Indonesia",
+      "desc": "Learn about fundamental computer, network engineering and general knowledge like math, language, phisics, and others.",
+      "date": "2019 - 2022"
     }
   ],
   "experience": [
     {
-      "title": "Intern Network Technician",
-      "subtitle": "PT. Jawa Provider Telematika",
+      "title": "Backend Developer",
+      "subtitle": "PT Telkom Indonesia",
       "desc": [
-        "Network installation",
-        "Fix network problem",
-        "Maintenance network"
+        "Outsource from PT Solusi Konvergen Indonesia.",
+        "Member of operation squad in myIndiHome tribe.",
+        "Maintain, enhance, and fix bugs in microservices apps with millions of users.",
+        "Develop and maintain Content Management System for myIndhiHome app."
       ],
-      "date": "Oktober 2020 - April 2021"
+      "date": "March 2022 - Present"
+    },
+    {
+      "title": "Backend Developer",
+      "subtitle": "PT Telkom Indonesia",
+      "desc": [
+        "Outsource from PT Solusi Inovasi Bangsa."
+      ],
+      "date": "November 2022 - February 2023"
+    },
+    {
+      "title": "External Code Reviewer",
+      "subtitle": "Dicoding Indonesia",
+      "desc": [
+        "Review the student's project",
+        "Suggest better code and best practice",
+        "Rate the student's project"
+      ],
+      "date": "September 2021 - Present"
     },
     {
       "title": "Fasilitator",
@@ -34,14 +53,14 @@
       "date": "Juni 2021 - Desember 2021"
     },
     {
-      "title": "External Code Reviewer",
-      "subtitle": "Dicoding Indonesia",
+      "title": "Intern Network Technician",
+      "subtitle": "PT. Jawa Provider Telematika",
       "desc": [
-        "Review the student's project",
-        "Suggest better code and best practice",
-        "Rate the student's project"
+        "Network installation",
+        "Fix network problem",
+        "Maintenance network"
       ],
-      "date": "September 2021 - Present"
+      "date": "Oktober 2020 - April 2021"
     }
   ]
 }

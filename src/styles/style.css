@@ -222,7 +222,7 @@ a {
 }
 
 .home-blob-img {
-  width: 170px;
+  width: 180px;
 }
 
 .home-img {
@@ -237,8 +237,14 @@ a {
 
 .home-title .iam,
 .home-greeting,
-.home-subtitle {
+.home-subtitle,
+.about {
   color: var(--text-color);
+}
+
+.about {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
 
 .home-social-media {
@@ -274,6 +280,10 @@ a {
   height: 20px;
 }
 
+.be-skill .skills-logo {
+  height: 25px;
+}
+
 .skills-container {
   row-gap: 0;
 }
@@ -306,6 +316,7 @@ a {
 .skills-list {
   height: 0;
   overflow: hidden;
+  text-align: center;
 }
 
 .skill-desc {
@@ -317,7 +328,6 @@ a {
 .skills-open .skills-list {
   height: max-content;
   margin-bottom: 1rem;
-  margin-left: 1rem;
 }
 
 .skills-open .skills-arrow {
@@ -531,10 +541,23 @@ a {
   color: hsl(133, 50%, 95%);
   padding: 0.7rem 5%;
   margin-bottom: var(--header-height);
+}
+
+.footer .first-line{
+  font-size: 1.1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.1rem;
+}
+
+.footer .inspired {
+  text-align: center;
+  font-size: 0.7rem;
+  position: relative;
+}
+
+.footer a {
+  color: hsl(133, 50%, 95%);
 }
 
 .footer-social-media .socmed-icon {
@@ -661,7 +684,6 @@ a {
 
   .home-data {
     grid-column: initial;
-    padding-top: 5rem;
   }
 
   .home-img {
@@ -676,6 +698,15 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .skills-list {
+    text-align: start;
+    margin-left: 1rem;
+  }
+
+  .be-skill .skills-logo {
+    height: 30px;
+  }  
+
   .contact-container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -686,6 +717,11 @@ a {
 
   .footer {
     margin-bottom: 0;
+  }
+
+  .footer .inspired {
+    top: -25px;
+    height: 0
   }
 }
 
@@ -716,8 +752,8 @@ a {
     font-size: 1.7rem;
   }
 
-  .home-data {
-    padding-top: 3rem;
+  .about {
+    font-size: 1.1rem;
   }
 
   .footer {

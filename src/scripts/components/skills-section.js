@@ -34,19 +34,8 @@ class SkillsSection extends HTMLElement {
     this.innerHTML = /* html */ `<section class="skills section" id="skills">
       <h2 class="section-title">Skills</h2>
       <div class="skills-container grid">
-        <div class="skills-content skills-open">
-          <div class="skills-header">
-            <i class="uil uil-brackets-curly skills-icon"></i>
-            <h3 class="skills-title">Front-End Development</h3>
-            <i class="uil uil-angle-down skills-arrow"></i>
-          </div>
-          <div class="skills-list">
-          <p class="skill-desc">${skillsList.frontEnd.desc}</p>
-           ${this.frontEndSkills.outerHTML}
-          </div>
-        </div>
 
-        <div class="skills-content">
+      <div class="skills-content skills-open be-skill">
           <div class="skills-header">
             <i class="uil uil-server-network skills-icon"></i>
             <h3 class="skills-title">Back-End Development</h3>
@@ -55,6 +44,18 @@ class SkillsSection extends HTMLElement {
           <div class="skills-list">
           <p class="skill-desc">${skillsList.backEnd.desc}</p>
             ${this.backEndSkills.outerHTML}
+          </div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-header">
+            <i class="uil uil-brackets-curly skills-icon"></i>
+            <h3 class="skills-title">Front-End Development</h3>
+            <i class="uil uil-angle-down skills-arrow"></i>
+          </div>
+          <div class="skills-list">
+          <p class="skill-desc">${skillsList.frontEnd.desc}</p>
+           ${this.frontEndSkills.outerHTML}
           </div>
         </div>
 
