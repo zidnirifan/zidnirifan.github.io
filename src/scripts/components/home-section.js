@@ -41,7 +41,7 @@ class HomeSection extends HTMLElement {
           <h3 class="home-greeting">Hello</h3>
           <h1 class="home-title"><span class="iam">I AM</span> ZIDNI RIF'AN</h1>
           <h3 class="home-subtitle">Backend Developer</h3>
-          <p class="about">I am a backend developer with expertise in designing and developing scalable and reliable server-side apps. I enjoy collaborating with other developers and stakeholders to deliver high-quality products that meet user needs and expectations. I like to learn new things and can learn them quickly.</p>
+          <p class="about">I am expertise in designing and developing scalable and reliable server-side apps. I enjoy collaborating with other developers and stakeholders to deliver high-quality products that meet user needs and expectations. I like to learn new things and can learn them quickly.</p>
           <div class="home-social-media">
             <a
               href="https://www.linkedin.com/in/zidnirifan"
