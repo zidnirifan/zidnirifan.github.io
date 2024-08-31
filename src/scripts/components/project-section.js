@@ -14,7 +14,7 @@ class ProjectSection extends HTMLElement {
 
   render() {
     this.innerHTML = /* html */ `<section class="section project" id="project">
-      <h2 class="section-title">Project</h2>
+      <h2 class="section-title">Personal Project</h2>
       <div class="project-container swiper-container">
           ${this.projectsList.outerHTML}
         <div class="swiper-button-next">
