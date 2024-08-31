@@ -8,13 +8,13 @@ class ContactSection extends HTMLElement {
       <h2 class="section-title">Contact</h2>
       <div class="contact-container grid">
         <a
-          href="https://wa.me/6283852194099"
+          href="https://www.linkedin.com/in/zidnirifan"
           target="_blank"
           class="contact-item phone grid"
         >
-          <i class="uil uil-phone contact-icon"></i>
-          <h3 class="contact-title">Phone/WhatsApp</h3>
-          <p class="contact-address">+6283852194099</p>
+          <i class="uil uil-linkedin contact-icon"></i>
+          <h3 class="contact-title">Linkedin</h3>
+          <p class="contact-address">linkedin.com/in/zidnirifan</p>
         </a>
         <a
           href="mailto:zidni.rifan7@gmail.com"
